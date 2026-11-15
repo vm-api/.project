@@ -1,0 +1,15 @@
+# Maintainer roster for VM API.
+#
+# Documentation: https://vm-api.io
+
+maintainers:
+  - project_id: "vm-api"
+    org: "vm-api"
+    teams:
+      - name: "maintainers"
+        members:
+          - aruneshpa
+      - name: "reviewers"
+        managed: false
+        members:
+          - aruneshpa

@@ -1,0 +1,58 @@
+# Example .project metadata for VM API
+#
+# Documentation: http://vm-api.io/
+
+schema_version: "1.0.0"
+slug: "vm-api"
+name: "VM API"
+description: "Provider-neutral Kubernetes APIs and core controllers for virtual machine lifecycle management."
+type: "platform"
+project_lead:
+  - "aruneshpa"
+slack_channels:
+  - name: "#vm-api-dev"
+    workspace: "cncf"
+    link: "https://cloud-native.slack.com/messages/vm-api-dev"
+    primary: true
+
+maturity_log:
+  - phase: "sandbox"
+    date: 2026-09-28T00:00:00Z
+    issue: "https://github.com/cncf/sandbox/issues/517"
+
+repositories:
+  - "https://github.com/vm-api/vm-api"
+
+website: "https://vm-api.io"
+
+security:
+  policy:
+    path: "https://github.com/vm-api/vm-api/blob/main/SECURITY.md" 
+
+governance:
+  contributing:
+    path: "https://github.com/vm-api/vm-api/blob/main/CONTRIBUTING.md"
+  governance_doc:
+    path: "https://github.com/vm-api/vm-api/blob/main/GOVERNANCE.md"
+  code_of_conduct:
+    path: "https://github.com/vm-api/vm-api/blob/main/CODE_OF_CONDUCT.md"
+
+
+legal:
+  license:
+    path: "https://github.com/vm-api/vm-api/blob/main/LICENSE"
+  identity_type:
+    has_dco: true
+    has_cla: false
+    dco_url:
+      path: "https://developercertificate.org/"
+
+documentation:
+  readme:
+    path: "https://github.com/vm-api/vm-api/blob/main/README.md"
+  architecture:
+    path: "https://github.com/vm-api/vm-api/blob/main/docs/architecture.md"
+
+landscape:
+  category: "Orchestration & Management"
+  subcategory: "Scheduling & Orchestration"
